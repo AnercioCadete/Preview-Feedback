@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+    <title>Feedback UI</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <h1 class="heading">Feedback UI</h1>
+      <div class="ratings-container" id="rating-container">
+        <div class="rating">
+          <ion-icon class="icon" name="person-remove-outline"></ion-icon>
+          <small>Unhappy</small>
+        </div>
+        <div class="rating">
+          <ion-icon class="icon" name="person-outline"></ion-icon>
+          <small>Neutral</small>
+        </div>
+        <div class="rating">
+          <ion-icon class="icon" name="person-add-outline"></ion-icon>
+          <small>Satisfied</small>
+        </div>
+      </div>
+      <button class="btn" id="btn">Send Review</button>
+    </div>
+  </body>
+</html>
